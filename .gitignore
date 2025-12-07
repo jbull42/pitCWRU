@@ -1,0 +1,25 @@
+#Python 
+__pycache__
+venv
+
+#Logs
+logs
+*.log
+*.log.*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+#Environment
+.env
+frontend/.env
+backend/.env
+.env.local
+
+#Node
+node_modules/
+
+#System specific
+.vscode/
+.DS_Store
