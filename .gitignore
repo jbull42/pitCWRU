@@ -1,6 +1,14 @@
 #Python 
-__pycache__
-venv
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.env
+python-services/**/venv/
+python-services/**/__pycache__/
+venv/
 
 #Logs
 logs
@@ -17,9 +25,35 @@ frontend/.env
 backend/.env
 .env.local
 
-#Node
+#Node and PNPM
 node_modules/
+pnpm-debug.log
+.npmrc
+
+#Build Outputs
+dist/
+frontend/dist
+backend/dist
+coverage/
+*.tsbuildinfo
+
+#Vite
+*.vite
+
+#Docker
+**/.dockerignore
+docker-compose.override.yml
+docker-data/
 
 #System specific
 .vscode/
+.idea/
 .DS_Store
+Thumbs.db
+
+#Misc
+*.swp
+*.swo
+*.orig
+*.tmp
+*.temp
