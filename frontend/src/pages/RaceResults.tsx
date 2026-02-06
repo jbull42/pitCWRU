@@ -1,11 +1,10 @@
-import React from "react";
+import { useLoaderData } from "react-router-dom";
 
-interface RaceProps {
-    raceId: number;
-}
-
-const RaceResults: React.FC<RaceProps> = (props) => {
-    return <h2>Race {props.raceId}</h2>;
+const RaceResults = () => {
+    const props = useLoaderData();
+    return (
+        <h2>Race {props.raceId}</h2>
+    );
 }
 
 export default RaceResults;
