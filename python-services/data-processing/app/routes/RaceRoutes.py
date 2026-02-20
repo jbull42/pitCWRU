@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from ..DAQ import Races, LastSession
+from app.DAQ import Races, LastSession
 
 router = APIRouter()
 

@@ -1,7 +1,6 @@
 # Grand Scheme
 What page do we want to implement first? What data does it need.
 
-
 # Python
 ### DAQ
  - [ ] Get the basic data for the page
